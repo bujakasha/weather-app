@@ -1,0 +1,51 @@
+
+$body-color: #2A2B2A;
+$theme-colors: (
+  dark: #232323,
+  light: #f7f8fd,
+  primary: #7a41fe,
+  secondary: #7a41fe
+);
+
+$container-max-widths: (
+  sm: 900px,
+  md: 900px,
+  lg: 900px,
+  xl: 968px
+);
+
+
+
+
+$font-family-sans-serif: 'Work sans', "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$font-family-serif:      'Work sans', Georgia, "Times New Roman", Times, serif !default;
+$font-family-monospace:   'Work sans', Monaco, Consolas, "Courier New", monospace !default;
+$font-family-base:        $font-family-sans-serif !default;
+$font-weight-bold:            600 !default;
+
+
+$input-btn-focus-width:       0rem !default;
+// $input-btn-focus-color:       rgba($component-active-bg, .25) !default;
+// $input-btn-focus-box-shadow:  0 0 0 $input-btn-focus-width $input-btn-focus-color !default;
+
+
+
+$navbar-padding-y:  .7rem;
+$navbar-padding-x:   0rem;
+$navbar-nav-link-padding-x:         1.6rem !default;
+$nav-link-padding-y:         .8rem !default;
+
+$input-group-addon-bg: transparent;
+$input-group-addon-border-color:        none;
+
+
+$input-border-radius:                   0px ;
+$input-border-radius-lg:                0px ;
+$input-border-radius-sm:                0px;
+// $input-padding-y:           1rem;
+$input-height: 3.3rem;
+
+$input-focus-border-color:  #858585;
+$input-focus-color: #858585;
+$input-focus-box-shadow: #858585;
+$input-focus-width: 1px;

@@ -1,0 +1,17 @@
+
+
+.header {
+    position: relative;
+    padding-top: 50px; 
+    padding-bottom: 50px; 
+
+  }
+
+
+  @media only screen and (min-width : 766px) {
+
+   .navbar .navbar-nav{
+    max-width: 750px;
+   }
+
+}

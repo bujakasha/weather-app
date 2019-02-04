@@ -1,0 +1,16 @@
+
+@import 'settings';
+@import 'mixins/mixins';
+@import 'animate';
+@import 'bootstrap';
+
+
+
+.view_container {
+      min-height: 90vh;  
+      padding-top:5vh; 
+      width: 100%;
+     // background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
+   }
+   
+   
