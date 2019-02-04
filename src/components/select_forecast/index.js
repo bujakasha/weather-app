@@ -22,17 +22,17 @@ const SelectForecast = props => {
         >
           <ForecastGroupButton
           title="Current"
-          isActive={activeIndex == 0}
+          isActive={activeIndex === 0}
           onClick={props.setActiveIndex.bind(props, 0)}
           />
            <ForecastGroupButton
           title="24 hours"
-          isActive={activeIndex == 1}
+          isActive={activeIndex === 1}
           onClick={props.setActiveIndex.bind(props, 1)}
           />
            <ForecastGroupButton
           title="5 days"
-          isActive={activeIndex == 2}
+          isActive={activeIndex === 2}
           onClick={props.setActiveIndex.bind(props, 2)}
           />
         </div>
