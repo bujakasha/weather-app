@@ -27,7 +27,7 @@ const App = props => {
         className="w-100 text-center py-4"
         style={{position: 'relative', bottom: 0, left: 0}}
       >
-        <a href="#" className="btn btn-link  text-muted">
+        <a href="https://github.com/bujakasha/weather-app" className="btn btn-link  text-muted">
           <FontAwesomeIcon icon={['fab', 'github']} size="1x" /> Github{' '}
         </a>
       </div>

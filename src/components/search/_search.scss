@@ -4,6 +4,7 @@
   max-width: 400px;
   width: 100%;
 }
+
 .search_bar.rounded{
   border-radius: 40px !important;
   padding: 0px 5px;
@@ -23,7 +24,7 @@
   box-shadow: none;
 }
 .search_container.vw-90{
-  width: 90vw;
+  width: 80vw;
 }
 .search_container .list-group-item{
   font-size: .8em;
@@ -32,8 +33,13 @@
 .search_container .search_results{
   position: absolute;
   z-index: 80;
-  max-width: 90vw;
+  max-width: 80vw;
   width: 400px;
+}
+
+.search_bar .form_control{
+  text-align: center;
+  padding-right: 65px;
 }
 
 
@@ -44,6 +50,8 @@
 }
   @media only screen and (min-width : 766px) {
 
+
+    
     .search_container .list-group-item{
       font-size: .6em;
     }
