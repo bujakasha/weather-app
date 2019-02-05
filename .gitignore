@@ -8,11 +8,15 @@
 # testing
 /coverage
 
+yarn.lock
+
 # fontawesome
 .npmrc
 
 # production
 /build
+
+.netlify
 
 # misc
 .DS_Store
