@@ -1,12 +1,12 @@
 
-![Screenshot of homepage](https://caspervaresmaa.fi/creenshot-of-homepage.png "Screenshot of homepage")
+![Screenshot of the weather app](https://simply-weather.netlify.com/screenshot.png "Screenshot of the app")
 
 # WEATHER APP
 
 
 Hey, this is simple React app that displays data from   [OpenWeatherMap API](https://openweathermap.org/api). 
 
-[Live site](https://caspervaresmaa.fi/simply-weather) 
+[Live site](https://simply-weather.netlify.com) 
 
 #### React with Hooks
 Project uses unstable versio of React that includes hooks. Hooks are functions that let you use Reacts state and lifecycle methods inside function components. Using hooks makes code cleaner and more readable by removing the need of classes. Custom hooks separate functions that allows us to extract and reuse component logic. 
