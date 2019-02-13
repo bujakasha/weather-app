@@ -1,7 +1,6 @@
 const mapboxAccessToken = process.env.REACT_APP_MAPBOX_TOKEN
 var delayTimer;
 export const mapboxGeocode = (inputValue, callback) => {
- console.log(mapboxAccessToken)
   if (inputValue && inputValue.length > 2) {
     clearTimeout(delayTimer);
     delayTimer = setTimeout(function() {

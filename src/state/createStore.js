@@ -4,11 +4,8 @@ import reducer from './reducers/index'
 
 const initialState = {}
 const composeEnhancers =
-  typeof window === 'object' && window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ // for universal ("isomorphic") apps
-    ? window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__({
-        // Specify extension’s options like name, actionsBlacklist, actionsCreators, serialize...
-        // see: https://github.com/zalmoxisus/redux-devtools-extension/blob/master/docs/API/Arguments.md
-      })
+  typeof window === 'object' && window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ 
+    ? window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__({})
     : compose
 
 const enhancer = composeEnhancers(applyMiddleware(thunkMiddleware))
